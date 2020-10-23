@@ -84,6 +84,10 @@ const JanxForm = forwardRef(
         ...fields.current,
         field
       ]);
+
+      // if (!getFieldValue(field.name) && field.defaultControlValue) {
+      //   setFieldValue(field.name, field.defaultControlValue);
+      // }
     }, [fields]);
 
     const unregisterField = useCallback((name) => {

@@ -1,6 +1,6 @@
 {
   "name": "janx-form",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A simple but powerful form component for React",
   "main": "./build/index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "hooks",
     "ref"
   ],
-  "author": "João Henrique Barbosa @ JanxTechnologies",
+  "author": "João Henrique Barbosa @ Janx Technologies",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/JanxTechnologies/janx-form/issues"
@@ -36,7 +36,7 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "@material/react-button": "^0.15.0",
+    "@babel/plugin-transform-runtime": "^7.11.5",
     "prop-types": "^15.7.2",
     "react": "^16.12.0"
   }
