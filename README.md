@@ -11,7 +11,7 @@
 
 >In JanxForm you will develop your own form controls, supported by methods provided by the useField hook.
 
-### ✨ [Demo 1 - Simplest implementation]https://stackblitz.com/edit/janx-form-simple-example-1?file=src/App.js)
+### ✨ [Demo 1 - Simplest implementation](https://stackblitz.com/edit/janx-form-simple-example-1?file=src/App.js)
 
 >If you need more complicated features, like required fields and real time validation you can do it! All validation check are made at field level, but the useField hook provides you many methods to make everything work like a single form validation.
 
