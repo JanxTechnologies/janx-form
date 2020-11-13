@@ -176,6 +176,10 @@ const JanxForm = forwardRef(
         setData(data)
       },
 
+      getValues() {
+        return values.current;
+      },
+
       clearForm() {
         clearForm()
       },
