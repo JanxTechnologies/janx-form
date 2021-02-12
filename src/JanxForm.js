@@ -168,8 +168,18 @@ const JanxForm = forwardRef(
 
     useImperativeHandle(ref, () => ({
 
-      getField() {
-        return getField()
+      getFieldValue(fieldName) {
+        const field = getField(fieldName);
+
+        if (!field) {
+          return false;
+        }
+
+        return getFieldValue(fieldName);
+      },
+
+      getField(fieldName) {
+        return getField(fieldName)
       },
 
       setData(data) {
