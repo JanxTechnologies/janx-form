@@ -1,6 +1,6 @@
 {
   "name": "janx-form",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A simple but powerful form component for React",
   "main": "./build/index.js",
   "scripts": {
