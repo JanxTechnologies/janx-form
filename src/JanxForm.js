@@ -178,16 +178,6 @@ const JanxForm = forwardRef(
         return getFieldValue(fieldName);
       },
 
-      setFieldValue(fieldName, value) { // IMPLEMENT skipValidation?
-        const field = getField(fieldName);
-
-        if (!field) {
-          return false;
-        }
-
-        return setFieldValue(field, value);
-      },
-
       getField(fieldName) {
         return getField(fieldName)
       },
